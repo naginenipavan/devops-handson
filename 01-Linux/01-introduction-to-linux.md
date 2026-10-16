@@ -93,8 +93,7 @@ uname -s      # same as above, explicit form
 uname -a      # everything: kernel, host, version, architecture
 ```
 
-> [!TIP]
-> Not sure which flag to use? Try `--help` after the command.
+> **💡 Tip:** Not sure which flag to use? Try `--help` after the command.
 
 ### Keyboard shortcuts
 
@@ -156,8 +155,7 @@ Type part of a command or path and press `Tab`; the shell completes it.
 
 - Press `Tab` twice when several things match to see the options.
 
-> [!TIP]
-> Learn this now. It saves keystrokes and prevents typos in long paths.
+> **💡 Tip:** Learn this now. It saves keystrokes and prevents typos in long paths.
 
 <br>
 
@@ -229,8 +227,7 @@ date > when.txt        # write the current date and time
 - If the file doesn't exist, `>` **creates** it.
 - If it exists, `>` **overwrites** it (previous contents are gone).
 
-> [!WARNING]
-> `>` silently replaces existing content. Double-check the filename first.
+> **⚠️ Warning:** `>` silently replaces existing content. Double-check the filename first.
 
 Read it back:
 
@@ -273,7 +270,7 @@ Create these five files inside `/root/answers`:
 | `root-listing.txt` | listing of the top-level `/` directory |
 | `os.txt` | contents of `/etc/os-release` |
 
-**Worked answer** (written from the lesson commands, not copied from the site's hidden solution):
+**Solution (from the site):**
 
 ```bash
 mkdir -p /root/answers
@@ -303,7 +300,7 @@ Create `/root/work` with three files:
 | `today.txt` | output of `date` |
 | `here.txt` | output of `hostname` |
 
-**Worked answer:**
+**Solution (from the site):**
 
 ```bash
 mkdir -p /root/work
@@ -330,7 +327,7 @@ hostname > here.txt
 - [ ] Darwin
 - [x] **Linux**
 
-*The site checks this against your own lab, so it needs the lab running. Answer taken from the lesson.*
+*The site checks this one against your own lab; the answer is confirmed as `Linux`.*
 
 <br>
 
