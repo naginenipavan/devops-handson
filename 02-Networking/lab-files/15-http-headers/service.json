@@ -1,0 +1,13 @@
+{
+  "service": "payments-api",
+  "version": "2.4.1",
+  "owner": {
+    "team": "platform",
+    "email": "platform@corp.example"
+  },
+  "servers": [
+    {"name": "pay-1", "status": "up"},
+    {"name": "pay-2", "status": "down"},
+    {"name": "pay-3", "status": "up"}
+  ]
+}

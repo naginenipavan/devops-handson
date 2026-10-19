@@ -1,0 +1,10 @@
+Your machine's interface configuration:
+inet 10.50.20.14/24 scope global eth0
+
+Destinations:
+10.50.20.200
+10.50.21.5
+8.8.8.8
+10.50.20.9
+10.99.20.14
+10.50.20.254

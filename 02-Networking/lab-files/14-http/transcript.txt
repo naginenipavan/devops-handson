@@ -1,0 +1,20 @@
+* Host api.shop.internal:80 was resolved.
+*   Trying 10.0.4.20:80...
+* Connected to api.shop.internal (10.0.4.20) port 80
+> POST /api/login HTTP/1.1
+> Host: api.shop.internal
+> User-Agent: curl/8.5.0
+> Accept: */*
+> Content-Type: application/x-www-form-urlencoded
+> Content-Length: 29
+>
+* upload completely sent off: 29 bytes
+< HTTP/1.1 401 Unauthorized
+< Server: nginx/1.24.0 (Ubuntu)
+< Date: Tue, 09 Sep 2026 10:14:03 GMT
+< Content-Type: application/json
+< Content-Length: 38
+< Connection: keep-alive
+<
+{"error":"invalid username or password"}
+* Connection #0 to host api.shop.internal left intact

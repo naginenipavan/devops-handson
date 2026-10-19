@@ -1,0 +1,6 @@
+Choose the smallest prefix that fits each team, from this
+set only: /24 /25 /26 /27 /28
+
+web team: needs addresses for 100 machines
+db team: needs addresses for 40 machines
+monitoring team: needs addresses for 10 machines

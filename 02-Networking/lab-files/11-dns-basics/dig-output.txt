@@ -1,0 +1,16 @@
+; <<>> DiG 9.18.28 <<>> shop.internal.example
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41785
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;shop.internal.example.		IN	A
+
+;; ANSWER SECTION:
+shop.internal.example.	300	IN	A	203.0.113.77
+
+;; Query time: 2 msec
+;; SERVER: 192.0.2.53#53(192.0.2.53) (UDP)
+;; WHEN: Mon Sep 14 09:12:44 UTC 2026
+;; MSG SIZE  rcvd: 66

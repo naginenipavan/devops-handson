@@ -1,0 +1,8 @@
+1. Network address of 192.168.9.200/24
+2. Broadcast address of 192.168.9.200/24
+3. Usable host count of a /26
+4. Usable host count of a /23
+5. Network address of 10.20.30.40/16
+6. First usable host of 172.16.5.0/24
+7. Last usable host of 172.16.5.0/24
+8. Are 192.168.1.10/24 and 192.168.2.10/24 on the same network? (yes or no)

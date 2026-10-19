@@ -1,0 +1,4 @@
+weekly capacity report
+web tier: 4 nodes, 61 percent average cpu
+db tier: 2 nodes, 44 percent average cpu
+action: add one web node before the sale event

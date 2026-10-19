@@ -1,0 +1,8 @@
+Five symptoms. For each one, name the single tool you would
+reach for first: ip link, ip addr, ping, ss, or curl.
+
+1 - a machine seems fully disconnected; you suspect the network interface itself is down
+2 - the interface is up, but you suspect the machine never got an ip address
+3 - the machine has an address, but you suspect packets cannot reach a remote server at all
+4 - the remote machine answers pings, but you suspect no program is listening on the service port
+5 - the port is open, but users say the service returns the wrong page

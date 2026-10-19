@@ -1,0 +1,8 @@
+These six steps of one request are out of order.
+
+C - the ip packet is placed inside an ethernet frame with the next hop's mac address
+E - the server's tcp code reads the port and hands the bytes to the listening program
+A - curl writes the http request text
+F - the web server reads the http text and prepares a response
+B - the http text is placed inside a tcp segment with a port number
+D - the frame arrives at the server and the envelopes are removed one by one
